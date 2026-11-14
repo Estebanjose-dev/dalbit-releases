@@ -15,7 +15,7 @@
   ],
   "mandatory": false,
   "download_urls": {
-    "android_apk": "https://github.com/TU_USUARIO/dalbit-music/releases/latest/download/Dalbit_Music_v2.0_Android.apk",
+    "android_apk": "https://github.com/Estebanjose-dev/dalbit-releases/releases/download/2.0.0/Dalbit_Music_v2.0_Android.apk",
     "windows_zip": "https://github.com/TU_USUARIO/dalbit-music/releases/latest/download/Dalbit_Music_Windows.zip"
   }
 }
