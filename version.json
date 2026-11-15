@@ -1,13 +1,14 @@
 {
   "app_name": "Dalbit Music",
-  "latest_version": "2.0.1",
-  "version_code": 201,
+  "latest_version": "2.0.0",
+  "version_code": 200,
   "min_supported_version_code": 100,
   "release_date": "2026-11-14",
   "title": "Dalbit Music v2.0 - Moonlight Edition",
   "changelog": [
     "Nueva identidad visual Moonlight Minimalism con Material 3 Expressive.",
     "Modo Claro, Oscuro y Adaptación al Sistema en todas las pantallas.",
+    "Detección, descarga e instalación automática de actualizaciones al iniciar.",
     "Menú de 3 puntos en playlists (ordenar, renombrar, exportar y eliminar).",
     "Menú flotante de 8 acciones al mantener presionada cualquier canción.",
     "Persistencia de listas importadas en almacenamiento local.",
@@ -16,6 +17,7 @@
   "mandatory": false,
   "download_urls": {
     "android_apk": "https://github.com/Estebanjose-dev/dalbit-releases/releases/download/2.0.0/Dalbit_Music_v2.0_Android.apk",
-    "windows_zip": "https://github.com/TU_USUARIO/dalbit-music/releases/latest/download/Dalbit_Music_Windows.zip"
+    "windows_installer": "https://github.com/Estebanjose-dev/dalbit-releases/releases/download/2.0.0/Dalbit_Music_Setup_v2.0.exe",
+    "windows_zip": "https://github.com/Estebanjose-dev/dalbit-releases/releases/download/2.0.0/Dalbit_Music_Windows.zip"
   }
 }
