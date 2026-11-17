@@ -1,24 +1,33 @@
 {
-  "app_name": "Dalbit Music",
-  "latest_version": "2.0.0",
-  "version_code": 200,
-  "min_supported_version_code": 100,
-  "release_date": "2026-11-15",
-  "title": "Dalbit Music - Moonlight Edition",
-  "changelog": [
-    "Nueva identidad visual Moonlight Minimalism con 7 temas de acento.",
-    "Modo Negro Puro AMOLED (#000000) para ahorro total de batería.",
-    "Crossfade & Gapless playback: transiciones suaves entre pistas de audio.",
-    "Editor de etiquetas y cambio de carátula desde la galería.",
-    "Widget oficial 4x1 para la pantalla de inicio de Android.",
-    "Sincronización con tasa de refresco nativa (90 Hz / 120 Hz / 144 Hz).",
-    "Persistencia de listas importadas en almacenamiento local.",
-    "Nuevo icono oficial de la aplicación integrado para Android y PC."
-  ],
-  "mandatory": false,
-  "download_urls": {
-    "android_apk": "https://github.com/Estebanjose-dev/dalbit-releases/releases/download/2.0.0/Dalbit_Music_Android.apk",
-    "windows_installer": "https://github.com/Estebanjose-dev/dalbit-releases/releases/download/2.0.0/Dalbit_Music_Setup.exe",
-    "windows_zip": "https://github.com/Estebanjose-dev/dalbit-releases/releases/download/2.0.0/Dalbit_Music_Windows.zip"
-  }
+    "appName": "Dalbit Music",
+    "version": "2.3.3",
+    "buildNumber": 21,
+    "releaseDate": "2026-11-17T22:45:00Z",
+    "changelog": [
+        "Mejora global de legibilidad y escala tipográfica: textos de títulos, subtítulos, descripciones y badges aumentados de tamaño y con mayor peso visual (FontWeight.w700 y w500) en Ajustes, Biblioteca, Pantalla de Reproducción y Mini Reproductor.",
+        "Aumento sustancial de contraste y opacidad en textos secundarios (de 0.45-0.65 a 0.85) sobre fondos complejos, degradados y efectos de cristal.",
+        "Integración de paleta de texto temática específica por cada skin, con armonía cromática y contraste WCAG AAA.",
+        "Aislamiento GPU con RepaintBoundary en fondos temáticos y virtualización compacta en listas para fluidez a 120 FPS.",
+        "Sincronización total y verificación limpia sin errores en Android y Windows."
+    ],
+    "platforms": {
+        "android": {
+            "fileName": "Dalbit_Music_Android.apk",
+            "fileSize": 60399862,
+            "sha256": "3676C008FB09E9F403C1552CC3CB617EB33C8D9B1D4D84D3F55BEE0589FF2265",
+            "downloadUrl": "https://raw.githubusercontent.com/Cindy-dev/Dalbit-Music/main/DIST_DALBIT/Dalbit_Music_Android.apk"
+        },
+        "windows_installer": {
+            "fileName": "Dalbit_Music_Setup.exe",
+            "fileSize": 13437238,
+            "sha256": "A25CCD524EB7D0F36062DB9E379BA197F56375A4BAD6AF220FD2778CA9596BF8",
+            "downloadUrl": "https://raw.githubusercontent.com/Cindy-dev/Dalbit-Music/main/DIST_DALBIT/Dalbit_Music_Setup.exe"
+        },
+        "windows_portable": {
+            "fileName": "Dalbit_Music_Windows.zip",
+            "fileSize": 15333269,
+            "sha256": "7703AF18A3567D25FEC53724BB03765B34B8B51F3CC0A948772DCC1F4C7BD51D",
+            "downloadUrl": "https://raw.githubusercontent.com/Cindy-dev/Dalbit-Music/main/DIST_DALBIT/Dalbit_Music_Windows.zip"
+        }
+    }
 }
